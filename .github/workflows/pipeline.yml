@@ -28,7 +28,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: yourusername/mi-app-angular:latest
+          tags: asarmientop1005/devops-app-angular:latest
 
       - name: Deploy
         run: echo "Deploy step can be customized as per deployment platform"
