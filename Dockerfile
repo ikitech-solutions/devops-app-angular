@@ -1,5 +1,5 @@
 # Usar una imagen base de Node.js
-FROM --platform=linux/arm64 node:20 as build
+FROM node:20 as build
 
 # Establecer el directorio de trabajo en el contenedor
 WORKDIR /app
